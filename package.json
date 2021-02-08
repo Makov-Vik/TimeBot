@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint ./timebot.js",
-    "lint:fix": "eslint ./timebot.js --fix"
+    "lint:fix": "eslint ./timebot.js --fix",
+    "start": "node timebot.js"
   },
   "repository": {
     "type": "git",
