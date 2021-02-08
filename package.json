@@ -1,0 +1,29 @@
+{
+  "name": "timebot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./timebot.js",
+    "lint:fix": "eslint ./timebot.js --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Makov-Vik/TimeBot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Makov-Vik/TimeBot/issues"
+  },
+  "homepage": "https://github.com/Makov-Vik/TimeBot#readme",
+  "dependencies": {
+    "telegraf": "^4.0.3"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.3.1"
+  }
+}
