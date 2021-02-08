@@ -2,7 +2,7 @@
   "name": "timebot",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "timebot.js",
   "scripts": {
     "lint": "eslint ./timebot.js",
     "lint:fix": "eslint ./timebot.js --fix",
