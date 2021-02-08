@@ -1,2 +1,2 @@
-web:    lein run -m timebot.js.web
-worker: lein run -m timebot.js.worker
+web:    lein run -m timebot.web
+worker: lein run -m timebot.worker
