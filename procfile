@@ -1,1 +1,1 @@
-worker: node timebot.js
+worker: npm start
