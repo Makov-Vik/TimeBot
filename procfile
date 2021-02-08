@@ -1,2 +1,1 @@
-web:    lein run -m timebot.web
-worker: lein run -m timebot.worker
+worker: npm start
