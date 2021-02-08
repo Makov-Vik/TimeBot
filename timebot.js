@@ -92,4 +92,4 @@ bot.on('text', (ctx) => {
 //         ]).extra())
 // })
 
-bot.launch()
+bot.launch();
