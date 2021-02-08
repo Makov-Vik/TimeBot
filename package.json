@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "eslint ./timebot.js",
     "lint:fix": "eslint ./timebot.js --fix",
-    "start": "node timebot.js"
+    "start": "npm start"
   },
   "repository": {
     "type": "git",
