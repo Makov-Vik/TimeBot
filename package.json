@@ -6,8 +6,7 @@
   "scripts": {
     "lint": "eslint ./timebot.js",
     "lint:fix": "eslint ./timebot.js --fix",
-    "start": "npm run server",
-    "server": "live-server public --host=localhost --port=3000 --  middleware=./disable-browser-timebot.js"
+    "start": "node timebot.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +19,7 @@
   },
   "homepage": "https://github.com/Makov-Vik/TimeBot#readme",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "telegraf": "^4.0.3"
   },
   "devDependencies": {
