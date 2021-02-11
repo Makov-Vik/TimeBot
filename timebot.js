@@ -82,15 +82,16 @@ bot.on('text', (ctx) => {
             }  
         }
     }
-    }, 1000);
+  }, 1000);
 });
 
-// const arr = ['1', '2']
-// bot.action(notes.map((item) => `${item.Number}`), ctx => { // нельзя первы парематром указать notes.map((item) => item.Number)  поэтому создаю глобальную переменную
-//     ctx.reply(notes.map((item) => `${item.Number}`));
-//         return ctx.reply('Что именно?',Markup.inlineKeyboard([
-//             Markup.callbackButton('Изменить время','change')
-//         ]).extra())
-// })
+// bot.action(arr, (ctx) => {
+// //нельзя первы парематром указать notes.map((item) => item.Number) поэтому создаю глобальную переменную
+  
+// ctx.reply(notes.map((item) => `${item.Number}`));
+//   return ctx.reply('Что именно?', Markup.inlineKeyboard([
+//     Markup.callbackButton('Изменить время', 'change'),
+//   ]).extra());
+// });
 
 bot.launch();
